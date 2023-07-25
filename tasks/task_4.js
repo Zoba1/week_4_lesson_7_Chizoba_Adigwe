@@ -1,7 +1,7 @@
 
-function colorSelect() {
-    const removeColor = document.getElementById('colorSelect');
-    removeColor.remove(removeColor.selectedIndex);
-
+function removecolor() {
+    let muv = document.getElementById('colorSelect');
+    muv.remove(muv.selectedIndex);
+    muv.style.color = 'red'
     
 }
